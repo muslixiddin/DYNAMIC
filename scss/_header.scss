@@ -53,6 +53,12 @@
       padding: 12px 49px;
       border-radius: 20px;
       background-color: inherit;
+
+      svg{
+        display: none;
+        width: 24px;
+        height: 24px;
+      }
     }
     .header_right_btn a {
       font-family: Michroma;
@@ -376,12 +382,16 @@
               color: #184afb;
           }
         }
-        .header_btn_hidden{
-            display: block;
-            // header_btnhidden
-        }
+    
         .header_btn_hidden{
           display: block;
+      }
+
+      .hidden_text{
+        display: none;
+      }
+      svg{
+        display: flex;
       }
       } 
 }
