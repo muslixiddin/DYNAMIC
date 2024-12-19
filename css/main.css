@@ -688,3 +688,76 @@ body {
   text-decoration-skip-ink: none;
   color: #56585E;
 }
+
+.partniorlar {
+  padding-bottom: 120px;
+  border-bottom: 1px solid #cccccc;
+}
+.partniorlar .section_flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 18px;
+}
+.partniorlar .section_flex .section_flex_text {
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #56585e;
+}
+.partniorlar .partniyorlar_top {
+  display: flex;
+  justify-content: center;
+  gap: 306px;
+}
+.partniorlar .partniyorlar_top .partniyorla_title {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e3038;
+}
+.partniorlar .partniyorlar_top .partniyorlar_dasc {
+  width: 408px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #828388;
+}
+.partniorlar .partniyorlar_bottom {
+  padding-top: 129px;
+  display: flex;
+  justify-content: space-between; /* Logotiplar orasida bo'sh joy ta'minlaydi */
+  align-items: center; /* Vertikal markazga hizalaydi */
+  width: 987px; /* Figma kengligi */
+  margin: 0 auto; /* Sahifaning markaziga joylashadi */
+}
+.partniorlar .partniyorlar_card,
+.partniorlar .partniyorlar_cardp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 321px; /* Kartochka kengligi */
+  padding: 61px 128px; /* Figma'dagi padding */
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  background-color: #fff; /* Kartochkaning oq fon rangi */
+}
+.partniorlar .partniyorlar_cardp {
+  width: 321px;
+  padding: 61px; /* Figma'dagi padding */
+}
+.partniorlar .partniyorlar_card {
+  width: 321px;
+}
