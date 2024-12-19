@@ -1,85 +1,164 @@
 .about {
-    padding-bottom: 120px;
-    border-bottom: 1px solid #cccccc;
-  .section_flex {
-    display: flex;
-    align-items: center;
+  padding-bottom: 120px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.section_flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 18px;
+  font-family: Michroma;
+}
+
+.section_flex_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #56585e;
+}
+
+.title_about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_about_text {
+  width: 600px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  color: #2e3038;
+}
+
+.about_card {
+  margin-top: 120px;
+  height: auto;
+  max-width: 432px;
+  padding: 48px 40px 24px 40px;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+}
+
+.about_card_title {
+  padding-bottom: 28px;
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #2e3038;
+}
+
+.about_card_desk {
+  padding-top: 28px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #2e303899;
+}
+
+.card_bottom_span {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  color: #184afb;
+  gap: 20px;
+}
+
+.about_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+
+@media (max-width: 1200px) {
+  .title_about_text {
+    width: 100%;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .about_cards {
     gap: 20px;
-    padding-top: 18px;
-    font-family: Michroma;
   }
-
-  .section_flex_text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #56585e;
-  }
-
-  .title_about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .title_about_text {
-      width: 600px;
-      font-family: Poppins;
-      font-size: 40px;
-      font-weight: 600;
-      line-height: 52px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: #2e3038;
-    }
-  }
-
   .about_card {
-    margin-top: 120px;
-    height: 460px;
-    width: 432px;
-    padding: 48px 85px 24px 40px;
-    border: 1px solid #cccccc;
-    border-radius: 12px;
-    .about_card_title {
-      padding-bottom: 28px;
-      width: 200px;
-      font-family: Michroma;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: #2e3038;
-    }
-
-    .about_card_desk {
-        width: 315px;
-        padding-top: 28px;
-      font-family: Poppins;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: #2E303899;
-    }
-    .card_bottom_span{
-        padding-top: 20px;
-        display: flex;
-        align-items: center;
-        color: #184AFB;
-        gap: 20px;
-    }
+    max-width: 400px;
+    padding: 40px;
   }
-  .about_cards{
-    display: flex;
+}
+
+@media (max-width: 1000px) {
+  .title_about_text {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .about_card {
+    max-width: 350px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 975px) {
+  .section_flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about_cards {
+    flex-direction: column;
     align-items: center;
-    gap: 12px;
+  }
+  .about_card {
+    max-width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 765px) {
+  .title_about_text {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .about_card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .title_about_text {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .about_cards {
+    gap: 15px;
+  }
+  .about_card {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section_flex {
+    padding-top: 10px;
+  }
+  .about_card {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title_about_text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .about_card {
+    padding: 8px;
   }
 }

@@ -1,79 +1,183 @@
 .partniorlar {
   padding-bottom: 120px;
   border-bottom: 1px solid #cccccc;
-  .section_flex {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding-top: 18px;
+}
 
-    .section_flex_text {
-      font-family: Michroma;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: #56585e;
-    }
+.section_flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 18px;
+}
+
+.section_flex_text {
+  font-family: "Michroma", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #56585e;
+}
+
+.partniyorlar_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.partniyorla_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  color: #2e3038;
+  margin-bottom: 10px;
+}
+
+.partniyorlar_dasc {
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #828388;
+  margin: 0 auto;
+}
+
+.partniyorlar_bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 50px;
+  flex-wrap: wrap; /* Ekran kichiklashganda logotiplar joylashadi */
+}
+
+.partniyorlar_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 40px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  background-color: #ffffff;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* 1200px */
+@media (max-width: 1200px) {
+  .partniyorlar_dasc {
+    width: 80%;
   }
-
-  .partniyorlar_top {
-    display: flex;
-    justify-content: center;
-    gap: 306px;
-    .partniyorla_title {
-      font-family: Poppins;
-      font-size: 40px;
-      font-weight: 600;
-      line-height: 52px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: #2e3038;
-    }
-
-    .partniyorlar_dasc {
-      width: 408px;
-      font-family: Poppins;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: #828388;
-    }
-  }
-
-  .partniyorlar_bottom {
-    padding-top: 129px;
-    display: flex;
-    justify-content: space-between; /* Logotiplar orasida bo'sh joy ta'minlaydi */
-    align-items: center; /* Vertikal markazga hizalaydi */
-    width: 987px; /* Figma kengligi */
-    margin: 0 auto; /* Sahifaning markaziga joylashadi */
-  }
-
-  .partniyorlar_card,
-  .partniyorlar_cardp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 321px; /* Kartochka kengligi */
-    padding: 61px 128px; /* Figma'dagi padding */
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-    background-color: #fff; /* Kartochkaning oq fon rangi */
-  }
-
-  .partniyorlar_cardp {
-    width: 321px;
-    padding: 61px; /* Figma'dagi padding */
-  }
-
   .partniyorlar_card {
-    width: 321px;
+    width: 270px;
+  }
+}
+
+/* 1100px */
+@media (max-width: 1100px) {
+  .partniyorla_title {
+    font-size: 36px;
+  }
+  .partniyorlar_card {
+    width: 250px;
+  }
+}
+
+/* 975px */
+@media (max-width: 975px) {
+  .partniyorlar_card {
+    width: 220px;
+    padding: 30px;
+  }
+  .partniyorlar_dasc {
+    font-size: 14px;
+  }
+}
+
+/* 850px */
+@media (max-width: 850px) {
+  .partniyorlar_card {
+    width: 200px;
+    padding: 25px;
+  }
+  .partniyorla_title {
+    font-size: 32px;
+  }
+}
+
+/* 765px */
+@media (max-width: 765px) {
+  .partniyorlar_bottom {
+    flex-direction: column; /* Vertikal joylashadi */
+    gap: 30px;
+  }
+  .partniyorlar_card {
+    width: 280px;
+  }
+}
+
+/* 670px */
+@media (max-width: 670px) {
+  .partniyorla_title {
+    font-size: 28px;
+  }
+  .partniyorlar_card {
+    width: 240px;
+  }
+}
+
+/* 600px */
+@media (max-width: 600px) {
+  .partniyorlar_dasc {
+    font-size: 14px;
+  }
+  .partniyorlar_card {
+    width: 200px;
+    padding: 20px;
+  }
+}
+
+/* 540px */
+@media (max-width: 540px) {
+  .section_flex_text {
+    font-size: 14px;
+  }
+  .partniyorlar_card {
+    width: 180px;
+  }
+}
+
+/* 450px */
+@media (max-width: 450px) {
+  .partniyorla_title {
+    font-size: 24px;
+  }
+  .partniyorlar_card {
+    width: 150px;
+    padding: 15px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .partniyorla_title {
+    font-size: 20px;
+  }
+  .partniyorlar_card {
+    width: 130px;
+  }
+}
+
+/* 320px */
+@media (max-width: 320px) {
+  .partniyorla_title {
+    font-size: 18px;
+  }
+  .partniyorlar_card {
+    width: 120px;
+    padding: 10px;
   }
 }

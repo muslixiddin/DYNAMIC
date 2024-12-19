@@ -85,10 +85,133 @@
       color: #184afb;
     }
 
-    .talim_right{
-        padding: 100px 98px;
-        border: 1px solid #CCCCCC;
-        border-radius: 8px;
+    .talim_right {
+      padding: 40px; /* Kichikroq padding ishlatish */
+      border: 1px solid #CCCCCC; /* Chegara */
+      border-radius: 8px; /* Chegaraning yumaloqligi */
+      max-width: 540px; /* Tasvir kengligini cheklash */
+      background-color: #fff; /* Oq fon rangi */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tasvir uchun soyalar */
+      overflow: hidden; /* Tasvirni chegaradan chiqmasligini ta'minlash */
     }
+    
+    .talim_right img {
+      width: 100%; /* Tasvirni blok kengligiga moslashtirish */
+      height: auto; /* Proporsiyani saqlash */
+      border-radius: 8px; /* Tasvir uchun ham yumaloq burchak */
+    }
+    
   }
 }
+@media (max-width: 1200px) {
+  .talim {
+    padding: 40px;
+  }
+  .talim_title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .talim_desc {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .talim_right {
+    padding: 30px;
+  }
+  .talim_btn {
+    padding: 8px 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title_wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .talim_title {
+    text-align: center;
+    font-size: 32px;
+  }
+  .talim_desc {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 975px) {
+  .talim_title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .talim_desc {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 765px) {
+  .talim {
+    padding: 20px;
+  }
+  .talim_right {
+    padding: 20px;
+  }
+  .talim_btn {
+    width: 100%;
+    padding: 10px;
+  }
+  .title_wrapper {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .talim_title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .talim_desc {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .talim_btn p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .talim {
+    padding: 15px;
+  }
+  .talim_right {
+    padding: 15px;
+  }
+  .talim_title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .talim_btn {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .talim {
+    padding: 10px;
+  }
+  .talim_title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .talim_desc {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .talim_btn {
+    padding: 6px;
+    border-radius: 10px;
+  }
+}
+
+
+
