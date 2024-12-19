@@ -1,0 +1,68 @@
+.imkoniyatlars {
+    padding-bottom: 120px;
+    border-bottom: 1px solid #CCCCCC;
+  .section_flex {
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .section_flex_text {
+      font-family: Michroma;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #56585e;
+    }
+  }
+
+  .immoniyatlar_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .immoniyatlar_title_text {
+      font-family: Poppins;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 52px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #2e3038;
+      width: 333px;
+    }
+  }
+
+  .imkoniyatlars_wrapper {
+    margin-top: 82px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+
+  }
+  .imkoniyatlars_card {
+    border-radius: 8px;
+    width: 654px;
+    background-color: #f5f5f5;
+    padding: 40px 44px 40px 40px;
+    .imkoniyatlars_span {
+      padding-top: 84px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .imkoniyatlars_span p {
+      font-family: Michroma;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #56585E;
+    }
+  }
+}

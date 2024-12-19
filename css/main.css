@@ -18,6 +18,10 @@ button {
   width: 100%;
 }
 
+body {
+  background-color: #FFFFFF;
+}
+
 .header {
   padding: 20px 60px 16px 60px;
   border-bottom: 1px solid #d9d9d9;
@@ -470,4 +474,217 @@ button {
   padding: 100px 98px;
   border: 1px solid #CCCCCC;
   border-radius: 8px;
+}
+
+.about {
+  padding-bottom: 120px;
+  border-bottom: 1px solid #cccccc;
+}
+.about .section_flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 18px;
+  font-family: Michroma;
+}
+.about .section_flex_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #56585e;
+}
+.about .title_about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .title_about .title_about_text {
+  width: 600px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e3038;
+}
+.about .about_card {
+  margin-top: 120px;
+  height: 460px;
+  width: 432px;
+  padding: 48px 85px 24px 40px;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+}
+.about .about_card .about_card_title {
+  padding-bottom: 28px;
+  width: 200px;
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e3038;
+}
+.about .about_card .about_card_desk {
+  width: 315px;
+  padding-top: 28px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(46, 48, 56, 0.6);
+}
+.about .about_card .card_bottom_span {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  color: #184AFB;
+  gap: 20px;
+}
+.about .about_cards {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.imkoniyatlar {
+  padding-bottom: 120px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.imkoniyatlar .section_flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.imkoniyatlar .section_flex_text {
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #56585e;
+}
+.imkoniyatlar .title_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imkoniyatlar .imkoniyatlar_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 100px;
+}
+.imkoniyatlar .imkoniyatlar_wrapper .imkoniyatlar_title {
+  margin-right: 540px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e3038;
+  width: 333px;
+}
+.imkoniyatlar .imkoniyatlar_wrapper .imkoniyatlar_cards {
+  padding-top: 123px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 123px;
+}
+.imkoniyatlar .imkoniyatlar_wrapper .imkoniyatlar_cards .imkoniyatlar_card {
+  width: 432px;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 20px;
+}
+.imkoniyatlar .imkoniyatlar_wrapper .imkoniyatlar_cards .imkoniyatlar_text {
+  padding-top: 20px;
+  width: 394px;
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(46, 48, 56, 0.6);
+}
+
+.imkoniyatlars {
+  padding-bottom: 120px;
+  border-bottom: 1px solid #CCCCCC;
+}
+.imkoniyatlars .section_flex {
+  padding-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.imkoniyatlars .section_flex .section_flex_text {
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #56585e;
+}
+.imkoniyatlars .immoniyatlar_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imkoniyatlars .immoniyatlar_title .immoniyatlar_title_text {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e3038;
+  width: 333px;
+}
+.imkoniyatlars .imkoniyatlars_wrapper {
+  margin-top: 82px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.imkoniyatlars .imkoniyatlars_card {
+  border-radius: 8px;
+  width: 654px;
+  background-color: #f5f5f5;
+  padding: 40px 44px 40px 40px;
+}
+.imkoniyatlars .imkoniyatlars_card .imkoniyatlars_span {
+  padding-top: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imkoniyatlars .imkoniyatlars_card .imkoniyatlars_span p {
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #56585E;
 }
