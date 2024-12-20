@@ -126,13 +126,24 @@
   }
 }
 
-@media (max-width: 320px) {
-  .imkoniyatlar_title {
-    font-size: 20px;
-    line-height: 30px;
+@media (max-width: 375px) {
+  .imkoniyatlars {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
   }
-  .imkoniyatlar_text {
-    font-size: 12px;
-    line-height: 18px;
+
+  .imkoniyatlars_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
   }
+
+  .imkoniyatlars_card {
+      margin: 0 auto;
+  }
+
+
 }

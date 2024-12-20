@@ -161,7 +161,7 @@
   }
 }
 
-/* 400px */
+
 @media (max-width: 400px) {
   .partniyorla_title {
     font-size: 20px;
@@ -171,13 +171,19 @@
   }
 }
 
-/* 320px */
-@media (max-width: 320px) {
-  .partniyorla_title {
-    font-size: 18px;
+@media (max-width: 375px) {
+  .partniyorlar_section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
   }
-  .partniyorlar_card {
-    width: 120px;
-    padding: 10px;
+
+  .partniyorlar_section img {
+      display: block;
+      margin: 0 auto;
   }
+
+
 }

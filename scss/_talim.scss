@@ -195,22 +195,24 @@
   }
 }
 
-@media (max-width: 320px) {
-  .talim {
-    padding: 10px;
+@media (max-width: 375px) {
+  .taalim_section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
   }
-  .talim_title {
-    font-size: 18px;
-    line-height: 24px;
+
+  .taalim_section .text {
+      margin-bottom: 20px;
   }
-  .talim_desc {
-    font-size: 12px;
-    line-height: 16px;
+
+  .taalim_section .button {
+      display: inline-block;
+      margin: 0 auto;
   }
-  .talim_btn {
-    padding: 6px;
-    border-radius: 10px;
-  }
+
+
 }
 
 

@@ -327,21 +327,19 @@ body {
     padding: 8px;
   }
 }
-@media (max-width: 320px) {
-  .talim {
-    padding: 10px;
+@media (max-width: 375px) {
+  .taalim_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  .talim_title {
-    font-size: 18px;
-    line-height: 24px;
+  .taalim_section .text {
+    margin-bottom: 20px;
   }
-  .talim_desc {
-    font-size: 12px;
-    line-height: 16px;
-  }
-  .talim_btn {
-    padding: 6px;
-    border-radius: 10px;
+  .taalim_section .button {
+    display: inline-block;
+    margin: 0 auto;
   }
 }
 .about {
@@ -623,14 +621,21 @@ body {
     line-height: 34px;
   }
 }
-@media (max-width: 320px) {
-  .imkoniyatlar_title {
-    font-size: 20px;
-    line-height: 30px;
+@media (max-width: 375px) {
+  .imkoniyatlars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  .imkoniyatlar_text {
-    font-size: 12px;
-    line-height: 18px;
+  .imkoniyatlars_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .imkoniyatlars_card {
+    margin: 0 auto;
   }
 }
 .imkoniyatlars {
@@ -904,7 +909,6 @@ body {
     padding: 15px;
   }
 }
-/* 400px */
 @media (max-width: 400px) {
   .partniyorla_title {
     font-size: 20px;
@@ -913,13 +917,16 @@ body {
     width: 130px;
   }
 }
-/* 320px */
-@media (max-width: 320px) {
-  .partniyorla_title {
-    font-size: 18px;
+@media (max-width: 375px) {
+  .partniyorlar_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
   }
-  .partniyorlar_card {
-    width: 120px;
-    padding: 10px;
+  .partniyorlar_section img {
+    display: block;
+    margin: 0 auto;
   }
 }
