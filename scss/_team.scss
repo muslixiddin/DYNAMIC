@@ -1,0 +1,89 @@
+.team {
+  .section_flex {
+    padding-top: 21px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .team_title_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 365px;
+  }
+
+  .team_title {
+    width: 432px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .team_top_btn {
+    padding: 6px 32px 6px 52px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: inherit;
+    border: 1px solid #cccccc;
+    color: #184afb;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .talim_text_span {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .team_card {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+  .wrpper_team_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 93px;
+    padding-top: 120px;
+  }
+  .talim_text {
+    font-family: Michroma;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .talim_text_little {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #828388;
+  }
+  .talim_text_span{
+    padding-left: 22px;
+    border-left: 1px solid #CCCCCC;
+  }
+}
