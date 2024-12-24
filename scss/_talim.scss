@@ -177,6 +177,11 @@
   .talim_btn p {
     font-size: 13px;
   }
+  .title_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 450px) {
